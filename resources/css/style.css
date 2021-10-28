@@ -65,12 +65,13 @@ header {
   text-transform: uppercase;
   font-size: 90%;
   border-bottom: 2px solid transparent;
-  transition: border-bottom 0.2s;
+  transition: border-bottom 0.2s, font-size 0.2s;
 }
 
 .main-nav li a:hover,
 .main-nav li a:active {
   border-bottom: 4px solid #5064a9;
+  font-size: 100%;
 }
 
 h1 {
