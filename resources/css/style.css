@@ -31,6 +31,14 @@ header {
   height: 100vh;
 }
 
+.navbar {
+  position: fixed;
+  top: 0%;
+  background: transparent;
+  left: 10%;
+  width: 1140px;
+}
+
 .hero-text-box {
   position: absolute;
   width: 1140px;
@@ -40,7 +48,7 @@ header {
 }
 
 .logo {
-  height: 150px;
+  height: 175px;
   width: auto;
   float: left;
   margin-top: 20px;
@@ -49,7 +57,7 @@ header {
 .main-nav {
   float: left;
   list-style: none;
-  margin-top: 70px;
+  margin-top: 80px;
 }
 
 .main-nav li {
@@ -64,7 +72,7 @@ header {
   text-decoration: none;
   text-transform: uppercase;
   font-size: 90%;
-  border-bottom: 2px solid transparent;
+  border-bottom: 4px solid transparent;
   transition: border-bottom 0.2s, font-size 0.2s;
 }
 
@@ -72,6 +80,20 @@ header {
 .main-nav li a:active {
   border-bottom: 4px solid #5064a9;
   font-size: 100%;
+}
+
+.main-nav li a img {
+  height: 50px;
+  width: auto;
+  border-radius: 50%;
+  position: fixed;
+  right: 30px;
+  top: 60px;
+  transition: transform 0.1s;
+}
+
+.main-nav li a img:hover {
+  transform: scale(1.2);
 }
 
 h1 {
