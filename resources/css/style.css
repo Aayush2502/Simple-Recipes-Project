@@ -146,3 +146,33 @@ h1 {
   border: 1px solid #3a497b;
   color: #fff;
 }
+
+.footer-text {
+  font-size: 35px;
+  border-bottom: 2px solid #555;
+}
+
+.social-buttons {
+  float: left;
+  list-style: none;
+}
+
+.social-buttons li {
+  display: inline-block;
+  padding: 10px;
+  font-size: 30px;
+}
+
+.social-buttons li a {
+  color: #555;
+}
+
+.contact {
+  float: left;
+  list-style: none;
+  font-size: 20px;
+}
+
+.contact li a {
+  color: #555;
+}
