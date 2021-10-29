@@ -1,6 +1,5 @@
 * {
   font-family: sans-serif;
-  
 }
 
 .header {
@@ -10,8 +9,6 @@
   color: rgb(230, 221, 221);
   background-image: url(bg-img1-2.jpg);
   overflow: hidden;
-
- 
 }
 
 .user-centre {
@@ -21,8 +18,8 @@
   max-width: 730px;
 }
 
-.floating1{
- max-width: 800px;
+.floating1 {
+  max-width: 800px;
 }
 
 .image1 {
@@ -31,14 +28,12 @@
   margin-bottom: 0;
 
   background: rgb(10, 218, 255);
-    padding: 5px;
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    margin-bottom: 30px;
-    border: 1px;
- solid rgba(0,0,0,.25);
-
+  padding: 5px;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-bottom: 30px;
+  border: 1px solid rgba(0, 0, 0, 0.25);
 }
 .chefs-name {
   /* float: left; */
@@ -50,16 +45,16 @@
   text-align: center;
 }
 
-.horizontal_center{
-  left:50%;
+.horizontal_center {
+  left: 50%;
   transform: translateX(-50%);
 }
 
-h1{
+h1 {
   margin-top: 100px;
   margin-bottom: 30px;
   text-align: center;
-  color:#292929
+  color: #292929;
 }
 
 .card1 {
@@ -71,14 +66,14 @@ h1{
   box-shadow: 0 0 1px rgb(0 0 0 / 50%);
   overflow: hidden;
   text-align: center;
-  z-index: 5
+  z-index: 5;
   margin-bottom: 50px;
 }
 
-.card{
+.card {
   float: left;
   width: 300px;
-  
+
   display: grid;
   grid-template-columns: 300px;
   grid-template-rows: 210px 210px 80px;
@@ -86,11 +81,10 @@ h1{
 
   border-radius: 18px;
   background: white;
-  box-shadow: 5px 5px 15px rgba(0,0,0,0.9);
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.9);
   font-family: roboto;
   text-align: center;
 }
-
 
 .card-image1 {
   grid-area: image;
@@ -114,23 +108,21 @@ h1{
 }
 .card-text .date {
   color: rgb(255, 7, 110);
-  font-size:13px;
+  font-size: 13px;
 }
 .card-text p {
   color: grey;
-  font-size:15px;
+  font-size: 15px;
   font-weight: 300;
 }
 .card-text h2 {
-  margin-top:0px;
-  font-size:28px;
+  margin-top: 0px;
+  font-size: 28px;
 }
-
-
 
 .card-stats2 {
   height: 0;
-  grid-area: stats; 
+  grid-area: stats;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr;
@@ -138,9 +130,9 @@ h1{
   border-bottom-left-radius: 15px;
   border-bottom-right-radius: 15px;
   background: rgb(255, 34, 34);
-}  
+}
 
-button{
+button {
   float: left;
   background-color: rgb(255, 149, 10);
 }
@@ -152,29 +144,30 @@ button{
   flex-direction: column;
 
   color: white;
-  padding:10px;
+  padding: 10px;
 }
 
 .card:hover {
   transform: scale(1.15);
-  box-shadow: 5px 5px 15px rgba(0,0,0,0.6);
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.6);
 }
 .card {
-
-...
   transition: 0.5s ease;
   cursor: pointer;
-  margin:30px;
+  margin: 30px;
   margin-right: 0;
-  margin-top:20px;
+  margin-top: 20px;
 }
 
-.btn--full:link, .btn--full:visited {
+.btn--full:link,
+.btn--full:visited {
   background-color: #e67e22;
   color: #fff;
 }
 
-.btn, .btn:link, .btn:visited {
+.btn,
+.btn:link,
+.btn:visited {
   display: inline-block;
   text-decoration: none;
   font-size: 1.5rem;
@@ -213,7 +206,7 @@ button{
   background-color: #94d82d;
 }
 
-.nextpage{
+.nextpage {
   text-align: center;
   font-size: 1.8rem;
 }
@@ -223,13 +216,13 @@ button{
   margin: 0 auto;
 }
 
-.link:link, .link:visited {
+.link:link,
+.link:visited {
   display: inline-block;
   color: #e67e22;
   text-decoration: none;
   border-bottom: 1px solid currentColor;
   padding-bottom: 2px;
   transition: all 0.3s;
-  margin-top:14px;
+  margin-top: 14px;
 }
-

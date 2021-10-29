@@ -201,7 +201,223 @@ h1 {
   font-size: 22px;
 }
 /* Test */
-.testing {
+/*`.testing {
   background-color: rgb(0, 0, 180);
   height: 200vh;
+}*/
+
+.user-centre {
+  margin: auto;
+  margin-top: -140px;
+  /* opacity: 0.5; */
+  max-width: 730px;
+}
+
+.floating1 {
+  max-width: 800px;
+}
+
+.image1 {
+  /* float: left; */
+  margin-left: 370px;
+  margin-bottom: 0;
+
+  background: rgb(10, 218, 255);
+  padding: 5px;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-bottom: 30px;
+  border: 1px solid rgba(0, 0, 0, 0.25);
+}
+.chefs-name {
+  /* float: left; */
+  margin-top: 10px;
+  font-size: 20px;
+}
+
+.details {
+  text-align: center;
+}
+
+.horizontal_center {
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+h1 {
+  margin-top: 100px;
+  margin-bottom: 30px;
+  text-align: center;
+  color: #292929;
+}
+
+.card1 {
+  position: relative;
+  padding: 20px 0;
+  width: 100%;
+  background: rgb(248, 243, 243);
+  border-radius: 3px;
+  box-shadow: 0 0 1px rgb(0 0 0 / 50%);
+  overflow: hidden;
+  text-align: center;
+  z-index: 5;
+  margin-bottom: 50px;
+}
+
+.card {
+  float: left;
+  width: 300px;
+
+  display: grid;
+  grid-template-columns: 300px;
+  grid-template-rows: 210px 210px 80px;
+  grid-template-areas: "image" "text" "stats";
+
+  border-radius: 18px;
+  background: white;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.9);
+  font-family: roboto;
+  text-align: center;
+}
+
+.card-image1 {
+  grid-area: image;
+  background: url("img1.jpg");
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  background-size: cover;
+}
+
+.card-image2 {
+  grid-area: image;
+  background: url("paneer.JPG");
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  background-size: cover;
+}
+
+.card-text {
+  grid-area: text;
+  margin: 25px;
+}
+.card-text .date {
+  color: rgb(255, 7, 110);
+  font-size: 13px;
+}
+.card-text p {
+  color: grey;
+  font-size: 15px;
+  font-weight: 300;
+}
+.card-text h2 {
+  margin-top: 0px;
+  font-size: 28px;
+}
+
+.card-stats2 {
+  height: 0;
+  grid-area: stats;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  background: rgb(255, 34, 34);
+}
+
+button {
+  float: left;
+  background-color: rgb(255, 149, 10);
+}
+
+.card-stats .stat {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  color: white;
+  padding: 10px;
+}
+
+.card:hover {
+  transform: scale(1.15);
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.6);
+}
+.card {
+  transition: 0.5s ease;
+  cursor: pointer;
+  margin: 30px;
+  margin-right: 0;
+  margin-top: 20px;
+}
+
+.btn--full:link,
+.btn--full:visited {
+  background-color: #e67e22;
+  color: #fff;
+}
+
+.btn,
+.btn:link,
+.btn:visited {
+  display: inline-block;
+  text-decoration: none;
+  font-size: 1.5rem;
+  font-weight: 600;
+  padding: 1.6rem 3.2rem;
+  border-radius: 9px;
+  border: none;
+  cursor: pointer;
+  font-family: inherit;
+  /* transition: background-color 0.3s; */
+  transition: all 0.3s;
+  margin: 20px;
+}
+
+.meal-tags {
+  margin-bottom: 1.2rem;
+  /* display: flex; */
+  gap: 0.4rem;
+}
+
+.tag--vegetarian {
+  background-color: #51cf66;
+}
+
+.tag {
+  display: inline-block;
+  padding: 0.4rem 0.8rem;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  color: #333;
+  border-radius: 100px;
+  font-weight: 600;
+}
+
+.tag--vegan {
+  background-color: #94d82d;
+}
+
+.nextpage {
+  text-align: center;
+  font-size: 1.8rem;
+}
+.container {
+  max-width: 120rem;
+  padding: 0 3.2rem;
+  margin: 0 auto;
+}
+
+.link:link,
+.link:visited {
+  display: inline-block;
+  color: #e67e22;
+  text-decoration: none;
+  border-bottom: 1px solid currentColor;
+  padding-bottom: 2px;
+  transition: all 0.3s;
+  margin-top: 14px;
 }
