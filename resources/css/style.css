@@ -3,7 +3,6 @@
 Color (matching with logo): #5064a9,rgba(80,100,169,255) ;
 Color (Darker):#3a497b;
 */
-
 * {
   margin: 0;
   padding: 0;
@@ -11,7 +10,7 @@ Color (Darker):#3a497b;
 }
 
 html {
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color: #fff;
   color: #555;
   font-family: "Lato", "Arial", sans-serif;
   font-weight: 300;
@@ -33,10 +32,8 @@ header {
 
 .navbar {
   position: fixed;
-  top: 0%;
-  background: transparent;
-  left: 10%;
-  width: 1140px;
+  max-width: 1140px;
+  margin: 0 auto;
 }
 
 .hero-text-box {
@@ -106,7 +103,7 @@ h1 {
   letter-spacing: 1px;
   word-spacing: 4px;
 }
-
+/* Buttons */
 .btn:link,
 .btn:visited {
   display: inline-block;
@@ -146,10 +143,23 @@ h1 {
   border: 1px solid #3a497b;
   color: #fff;
 }
+/* Footer */
+.footer {
+  background-color: rgba(0, 0, 0, 0.9);
+}
 
 .footer-text {
   font-size: 35px;
+  color: rgb(200, 200, 200);
   border-bottom: 2px solid #555;
+}
+
+.footer-logo {
+  margin-top: 5px;
+  height: 100px;
+  width: auto;
+  float: left;
+  border-radius: 15px;
 }
 
 .social-buttons {
@@ -164,15 +174,32 @@ h1 {
 }
 
 .social-buttons li a {
-  color: #555;
+  color: rgb(125, 125, 125);
+  transition: border-bottom 0.1s;
+}
+
+.social-buttons li a:hover {
+  border-bottom: 2px solid #5064a9;
 }
 
 .contact {
   float: left;
   list-style: none;
   font-size: 20px;
+  color: rgb(125, 125, 125);
 }
 
 .contact li a {
-  color: #555;
+  color: rgb(125, 125, 125);
+  transition: all 0.2s;
+}
+
+.contact li a:hover {
+  color: #5064a9;
+  font-size: 22px;
+}
+/* Test */
+.testing {
+  background-color: rgb(0, 0, 180);
+  height: 200vh;
 }
