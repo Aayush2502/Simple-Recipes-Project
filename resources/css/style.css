@@ -39,7 +39,7 @@ header {
 
 .hero-text-box {
   position: absolute;
-  width: 1140px;
+  width: 90%;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -104,7 +104,9 @@ h1 {
   letter-spacing: 1px;
   word-spacing: 4px;
 }
+
 /* Buttons */
+
 .btn:link,
 .btn:visited {
   display: inline-block;
@@ -145,7 +147,58 @@ h1 {
   border: 1px solid #3a497b;
   color: #fff;
 }
+
+/*Card*/
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+  border-radius: 20px;
+  height: 400px;
+  margin: 0 5px;
+  background-size: cover;
+  transition: all 0.2s;
+}
+
+.container {
+  height: 90%;
+  width: 100%;
+  padding: 10px;
+  border-radius: 20px;
+  transition: all 0.2s;
+}
+
+.card-title {
+  padding: 0 10px;
+  transition: all 0.2s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  background-image: linear-gradient(to top, #fff, rgba(0, 0, 0, 0.5));
+}
+
+.card:hover > .container {
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  opacity: 0.8;
+}
+
+.card:hover > .card-title {
+  position: absolute;
+  top: 10px;
+  font-size: 25px;
+  color: #000;
+}
+
+/*featured recipes*/
+
+.featured-recipes {
+  padding: 10px;
+}
+
 /* Footer */
+
 .footer {
   background-color: rgba(0, 0, 0, 0.9);
 }
@@ -200,7 +253,9 @@ h1 {
   color: #5064a9;
   font-size: 22px;
 }
+
 /* Test */
+
 .testing {
   background-color: #fff;
   height: 200vh;
