@@ -17,6 +17,11 @@ html {
   text-rendering: optimizeLegibility;
 }
 
+a:link,
+a:visited {
+  text-decoration: none;
+}
+
 .row {
   max-width: 1140px;
   margin: 0 auto;
