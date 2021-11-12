@@ -1,17 +1,13 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
+    <meta charset="UTF-8" />
+    <title>Simple Recipes</title>
     <link rel="stylesheet" type="text/css" href="vendors/css/normalize.css" />
     <link rel="stylesheet" type="text/css" href="vendors/css/grid.css" />
-    <link rel="stylesheet" type="text/css" href="resources/css/style.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;1,300&display=swap"
-      rel="stylesheet"
-    />
-    <title>Simple Recipes</title>
+    <link href="accstyle.css" rel="stylesheet" />
   </head>
+
   <body>
     <header class="header">
       <img
@@ -21,16 +17,17 @@
         height="150"
       />
     </header>
+
     <article class="user-centre">
       <header class="card1">
         <div class="details">
-          <p class="image1 horizontal_center">
+          <p>
             <img
               src="resources/img/customer-1.jpg"
               alt="Chefs profile photo"
               width="150"
               height="150"
-              class="Chefs-photo"
+              class="image1"
             />
           </p>
           <p class="chefs-name"><strong>@GordanRamsay.Jr</strong></p>
@@ -105,12 +102,15 @@
       <div class="container nextpage"><a href="#" class="link">See all of your posted recipes →</a></div>
     </div>
     </article>
-    
-    <div class="testing"></div>
     <footer class="footer">
       <div class="row">
         <div class="col span-1-of-4">
           <h2 class="footer-text">Find us on</h2>
+          <img
+            class="footer-logo"
+            src="resources/img/Simple Recipes-logos/Simple Recipes-logos.jpeg"
+            alt="Footer logo"
+          />
           <ul class="social-buttons">
             <li>
               <a href="facebook.com"
@@ -167,13 +167,5 @@
         </div>
       </div>
     </footer>
-    <script
-      type="module"
-      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
-    ></script>
-    <script
-      nomodule
-      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
-    ></script>
   </body>
 </html>

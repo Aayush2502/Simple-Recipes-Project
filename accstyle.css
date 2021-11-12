@@ -24,9 +24,7 @@
 
 .image1 {
   /* float: left; */
-  margin-left: 370px;
   margin-bottom: 0;
-
   background: rgb(10, 218, 255);
   padding: 5px;
   width: 150px;
@@ -225,4 +223,63 @@ button {
   padding-bottom: 2px;
   transition: all 0.3s;
   margin-top: 14px;
+}
+
+/*----------------------------------------------------------------*/
+/* Footer */
+/*----------------------------------------------------------------*/
+
+.footer {
+  background-color: rgba(0, 0, 0, 0.9);
+}
+
+.footer-text {
+  font-size: 35px;
+  color: rgb(200, 200, 200);
+  border-bottom: 2px solid #555;
+}
+
+.footer-logo {
+  margin-top: 5px;
+  height: 100px;
+  width: auto;
+  float: left;
+  border-radius: 15px;
+}
+
+.social-buttons {
+  float: left;
+  list-style: none;
+}
+
+.social-buttons li {
+  display: inline-block;
+  padding: 10px;
+  font-size: 30px;
+}
+
+.social-buttons li a {
+  color: rgb(125, 125, 125);
+  transition: border-bottom 0.1s;
+}
+
+.social-buttons li a:hover {
+  border-bottom: 2px solid #5064a9;
+}
+
+.contact {
+  float: left;
+  list-style: none;
+  font-size: 20px;
+  color: rgb(125, 125, 125);
+}
+
+.contact li a {
+  color: rgb(125, 125, 125);
+  transition: all 0.2s;
+}
+
+.contact li a:hover {
+  color: #5064a9;
+  font-size: 22px;
 }
