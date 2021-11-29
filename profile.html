@@ -1,23 +1,124 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
+    <meta charset="UTF-8" />
+    <title>Simple Recipes</title>
     <link rel="stylesheet" type="text/css" href="vendors/css/normalize.css" />
     <link rel="stylesheet" type="text/css" href="vendors/css/grid.css" />
-    <link rel="stylesheet" type="text/css" href="resources/css/style.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;1,300&display=swap"
-      rel="stylesheet"
-    />
-    <title>Simple Recipes</title>
+    <link href="accstyle.css" rel="stylesheet" />
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
   </head>
+
   <body>
-    <div class="testing"></div>
+    <header class="header">
+      <img
+        class="logo"
+        src="resources/img/Simple Recipes-logos/Simple Recipes-logos_black.png"
+        width="150"
+        height="150"
+      />
+    </header>
+
+    <article class="user-centre">
+      <header class="card1">
+        <div class="details">
+          <p>
+            <img
+              src="resources/img/customer-1.jpg"
+              alt="Chefs profile photo"
+              width="150"
+              height="150"
+              class="image1"
+            />
+          </p>
+          <p class="chefs-name"><strong>@GordanRamsay.Jr</strong></p>
+        </div>
+        <!-- <ul class="values_list horizontal_center">
+          <li data-title="Hi my name is" data-value="GordanRamsay.Jr"
+          data-label="name" -->
+        <!-- </ul> -->
+
+       <a href="#" class="btn btn--full margin-right-sm">Instagram</a>
+       <a href="#" class="btn btn--full margin-right-sm">Facebook</a>
+      </header>
+      <div class="floating1">
+        <h1>Your Recipes</h1>
+      <div class="card">
+        <div class="card-image1"></div>
+        <div class="meal-tags">
+          <span class="tag tag--vegan">Vegan</span>
+        </div>
+        <div class="card-text">
+          <span class="date">4 days ago</span>
+          <h2>Healthy Salad</h2>
+          <p>
+            A lot sprouts and green leafy vegetables mixed with Indian spices
+          </p>
+        </div>
+        <!-- <div class="card-stats1">
+          <div class="stat">
+            <div class="value">4<sup>m</sup></div>
+            <div class="type">read</div>
+          </div>
+          <div class="stat border">
+            <div class="value">5123</div>
+            <div class="type">views</div>
+          </div>
+          <div class="stat">
+            <div class="value">32</div>
+            <div class="type">comments</div>
+          </div> -->
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-image2"></div>
+        <div class="meal-tags">
+          <span class="tag tag--vegetarian">Vegetarian</span>
+        </div>
+        <div class="card-text">
+          
+          <span class="date">6 days ago</span>
+          <h2>Cottage Cheese</h2>
+          <p>
+            Tasty paneer/cottage cheese bhurji recipe with parathaas(Indian
+            bread) with added ghee(clarified butter)
+          </p>
+        </div>
+        <!-- <div class="card-stats2">
+          <div class="stat">
+            <div class="value">4<sup>m</sup></div>
+            <div class="type">read</div>
+          </div>
+          <div class="stat border">
+            <div class="value">5123</div>
+            <div class="type">views</div>
+          </div>
+          <div class="stat">
+            <div class="value">32</div>
+            <div class="type">comments</div>
+          </div> -->
+        </div>
+      </div>
+      <div class="container nextpage"><a href="#" class="link">See all of your posted recipes →</a></div>
+    </div>
+    </article>
     <footer class="footer">
       <div class="row">
         <div class="col span-1-of-4">
           <h2 class="footer-text">Find us on</h2>
+          <img
+            class="footer-logo"
+            src="resources/img/Simple Recipes-logos/Simple Recipes-logos.jpeg"
+            alt="Footer logo"
+          />
           <ul class="social-buttons">
             <li>
               <a href="facebook.com"
@@ -74,13 +175,5 @@
         </div>
       </div>
     </footer>
-    <script
-      type="module"
-      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
-    ></script>
-    <script
-      nomodule
-      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
-    ></script>
   </body>
 </html>

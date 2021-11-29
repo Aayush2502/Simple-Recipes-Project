@@ -146,12 +146,14 @@ h1 {
 .btn-full:hover,
 .btn-full:active {
   border: 1px solid #3a497b;
+  transform: scale(1.1);
 }
 
 .btn-ghost:hover,
 .btn-ghost:active {
   border: 1px solid #3a497b;
   color: #fff;
+  transform: scale(1.1);
 }
 /*ABOUT US SECTION */
 .column-about {
