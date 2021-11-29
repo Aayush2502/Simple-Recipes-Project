@@ -161,7 +161,7 @@ h1 {
   float: left;
   width: 33.3%;
   margin-bottom: 16px;
-  padding: 0 8px;
+  padding: 2px 8px;
 }
 
 /*.card-about {
@@ -180,58 +180,18 @@ h1 {
   margin: 70px;
 }
 
-.container-about {
-  padding: 0 16px;
-}
-
-.container-about::after,
-.row::after {
-  content: "";
-  clear: both;
-  display: table;
-}
-
-.title-about {
-  color: grey;
-}
-
-.button-about {
-  border: none;
-  outline: 0;
-  display: inline-block;
-  padding: 8px;
-  color: white;
-  background-color: #000;
-  text-align: center;
-  cursor: pointer;
-  width: 75%;
-  align-items: center;
-  border-radius: 5px;
-}
-
-.button-about:hover {
-  background-color: #555;
-  cursor: pointer;
-}
-
-@media screen and (max-width: 650px) {
-  .column-about {
-    width: 100%;
-    display: block;
-  }
-}
 /*Card*/
 
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
   border-radius: 20px;
-  height: 400px;
-  margin: 0 5px;
+  height: 450px;
+  margin: 5px;
   transition: all 0.2s;
 }
 
 .container {
-  height: 90%;
+  height: 88%;
   width: 100%;
   padding: 10px;
   border-radius: 20px;
@@ -241,6 +201,18 @@ h1 {
 .card-title {
   padding: 0 10px;
   transition: all 0.2s;
+}
+
+.card-subtitle {
+  padding: 0 8px;
+  transition: all 0.2s;
+  float: right;
+  color: #5064a9;
+  font-weight: bold;
+}
+
+.card-description {
+  display: none;
 }
 
 .card:hover {
@@ -260,6 +232,23 @@ h1 {
   top: 10px;
   font-size: 25px;
   color: #000;
+}
+
+.card:hover > .card-subtitle {
+  position: absolute;
+  bottom: 20px;
+  font-size: 15px;
+  color: #000;
+}
+
+.card:hover > .card-description {
+  position: absolute;
+  top: 35px;
+  padding: 10px;
+  font-size: 18px;
+  color: #000;
+  font-weight: 300;
+  display: block;
 }
 
 /*featured recipes*/
