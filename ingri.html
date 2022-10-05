@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simple Recipes</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+      integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="ingri-style.css" />
+    <link rel="stylesheet" type="text/css" href="vendors/css/normalize.css" />
+    <link rel="stylesheet" type="text/css" href="vendors/css/grid.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="vendors/fonts/fontawesome-free-5.15.4-web/css/all.css"
+    />
+    <link rel="stylesheet" type="text/css" href="resources/css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;1,300&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="row">
+        <a href="index.html"
+          ><img
+            src="resources/img/Simple Recipes-logos/Simple Recipes-logos_white.png"
+            alt="Simple Recipes Logo"
+            class="logo"
+        /></a>
+        <ul class="main-nav">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="recipes.html">Recipes</a></li>
+          <li><a href="tags.html">Tags</a></li>
+          <li><a href="about.html">About</a></li>
+          <li>
+            <a href="profile.html"
+              ><img src="resources/img/customer-1.jpg" alt="Profile"
+            /></a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <div class="container">
+      <div class="meal-wrapper">
+        <div class="meal-search">
+          <!--
+            <h2 class="title">Find Meals For Your Ingredients</h2>
+          <blockquote>
+            Real food doesn't have ingredients, real food is ingredients.<br />
+            <cite>- Jamie Oliver</cite>
+          </blockquote>
+        -->
+          <div class="meal-search-box">
+            <input
+              type="text"
+              class="search-control"
+              placeholder="Enter an ingredient"
+              id="search-input"
+            />
+            <button type="submit" class="search-btn btn" id="search-btn">
+              <i class="fas fa-search"></i>
+            </button>
+          </div>
+        </div>
+
+        <div class="meal-result">
+          <h2 class="title">Your Search Results:</h2>
+          <div id="meal">
+            <!-- meal item -->
+            <!-- <div class = "meal-item">
+            <div class = "meal-img">
+              <img src = "food.jpg" alt = "food">
+            </div>
+            <div class = "meal-name">
+              <h3>Potato Chips</h3>
+              <a href = "#" class = "recipe-btn">Get Recipe</a>
+            </div>
+          </div> -->
+            <!-- end of meal item -->
+          </div>
+        </div>
+
+        <div class="meal-details">
+          <!-- recipe close btn -->
+          <button
+            type="button"
+            class="btn recipe-close-btn"
+            id="recipe-close-btn"
+          >
+            <i class="fas fa-times"></i>
+          </button>
+
+          <!-- meal content -->
+          <div class="meal-details-content">
+            <!-- <h2 class = "recipe-title">Meals Name Here</h2>
+          <p class = "recipe-category">Category Name</p>
+          <div class = "recipe-instruct">
+            <h3>Instructions:</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo blanditiis quis accusantium natus! Porro, reiciendis maiores molestiae distinctio veniam ratione ex provident ipsa, soluta suscipit quam eos velit autem iste!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet aliquam voluptatibus ad obcaecati magnam, esse numquam nisi ut adipisci in?</p>
+          </div>
+          <div class = "recipe-meal-img">
+            <img src = "food.jpg" alt = "">
+          </div>
+          <div class = "recipe-link">
+            <a href = "#" target = "_blank">Watch Video</a>
+          </div> -->
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer class="footer">
+      <div class="row">
+        <div class="col span-1-of-4">
+          <h2 class="footer-text">Find us on</h2>
+          <img
+            class="footer-logo"
+            src="resources/img/Simple Recipes-logos/Simple Recipes-logos.jpeg"
+            alt="Footer logo"
+          />
+          <ul class="social-buttons">
+            <li>
+              <a href="facebook.com"
+                ><ion-icon name="logo-facebook"></ion-icon
+              ></a>
+            </li>
+            <li>
+              <a href="twitter.com"
+                ><ion-icon name="logo-twitter"></ion-icon
+              ></a>
+            </li>
+            <li>
+              <a href="instagram.com"
+                ><ion-icon name="logo-instagram"></ion-icon
+              ></a>
+            </li>
+          </ul>
+        </div>
+        <div class="col span-1-of-4">
+          <h2 class="footer-text">Contact Us</h2>
+          <ul class="contact">
+            <li>623 Harrison St., 2nd Floor, San Francisco, CA 94107</li>
+            <li><a href="tel:916-356-8243">916-356-8243</a></li>
+            <li>
+              <a href="mailto:contact@simplerecipes.com"
+                >contact@simplerecipes.com</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="col span-1-of-4">
+          <h2 class="footer-text">Also On</h2>
+          <ul class="social-buttons">
+            <li>
+              <a href="playstore.com"
+                ><ion-icon name="logo-google-playstore"></ion-icon
+              ></a>
+            </li>
+            <li>
+              <a href="iosstore.com"
+                ><ion-icon name="logo-apple-appstore"></ion-icon
+              ></a>
+            </li>
+          </ul>
+        </div>
+        <div class="col span-1-of-4">
+          <h2 class="footer-text">Quick Links</h2>
+          <ul class="contact">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="recipes.html">Recipes</a></li>
+            <li><a href="tags.html">Tags</a></li>
+            <li><a href="about.html">About</a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
